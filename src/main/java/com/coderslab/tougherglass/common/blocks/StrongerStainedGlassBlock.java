@@ -5,8 +5,6 @@ import net.minecraft.block.StainedGlassBlock;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.item.DyeColor;
 
-import net.minecraft.block.AbstractBlock.Properties;
-
 public class StrongerStainedGlassBlock extends StainedGlassBlock implements IRenderTypeBlock {
 
 	public StrongerStainedGlassBlock(DyeColor colorIn, Properties properties) {
