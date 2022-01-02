@@ -10,7 +10,7 @@ import net.minecraft.world.level.block.GlassBlock;
 import net.minecraft.world.level.block.StainedGlassBlock;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber.Bus;
-import net.minecraftforge.fmllegacy.RegistryObject;
+import net.minecraftforge.registries.RegistryObject;
 
 @Mod.EventBusSubscriber(modid = TougherGlass.MOD_ID, bus = Bus.MOD)
 public class TABlocks {

@@ -1,10 +1,10 @@
 modLoader="javafml"
-loaderVersion="[37,)"
+loaderVersion="[39,)"
 license="GNU LGPL 3.0"
 issueTrackerURL="https://github.com/CodersLabs/Tougher-Glass-Forge/issues"
 [[mods]]
 modId="tougherglass"
-version="1.0.0"
+version="${file.jarVersion}"
 displayName="Tougher Glass"
 logoFile="tougherglass.png"
 credits="justinplayz91, EltrutLikes, Uraneptus"
@@ -15,20 +15,20 @@ description='''
 [[dependencies.tougherglass]]
     modId="forge"
     mandatory=true
-    versionRange="[37,)"
+    versionRange="[39,)"
     ordering="NONE"
     side="BOTH"
 
 [[dependencies.tougherglass]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.17.1,)"
+    versionRange="[1.18.1,)"
     ordering="NONE"
     side="BOTH"
 	
 [[dependencies.tougherglass]]
     modId="blueprint"
     mandatory=true
-    versionRange="[4.1.1,)"
+    versionRange="[5.0.0,)"
     ordering="AFTER"
     side="BOTH"
