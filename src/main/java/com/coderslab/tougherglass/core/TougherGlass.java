@@ -1,14 +1,9 @@
 package com.coderslab.tougherglass.core;
 
-import com.coderslab.tougherglass.common.blocks.StrongerStainedGlassBlock;
 import com.coderslab.tougherglass.core.registry.TABlocks;
-import com.teamabnormals.blueprint.core.util.registry.BlockEntitySubRegistryHelper;
-import com.teamabnormals.blueprint.core.util.registry.BlockSubRegistryHelper;
 import com.teamabnormals.blueprint.core.util.registry.RegistryHelper;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.StainedGlassBlock;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -18,10 +13,6 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLLoadCompleteEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-import net.minecraftforge.fmllegacy.RegistryObject;
-
-import java.util.HashSet;
-import java.util.Set;
 
 @Mod("tougherglass")
 @Mod.EventBusSubscriber(modid = "tougherglass", bus = Bus.MOD)

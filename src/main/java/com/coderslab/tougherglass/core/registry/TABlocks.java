@@ -1,12 +1,11 @@
 package com.coderslab.tougherglass.core.registry;
 
-import com.coderslab.tougherglass.common.blocks.StrongerStainedGlassBlock;
 import com.coderslab.tougherglass.core.TougherGlass;
 import com.teamabnormals.blueprint.core.util.registry.BlockSubRegistryHelper;
+import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.DyeColor;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.item.DyeColor;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.level.block.GlassBlock;
 import net.minecraft.world.level.block.StainedGlassBlock;
 import net.minecraftforge.fml.common.Mod;
