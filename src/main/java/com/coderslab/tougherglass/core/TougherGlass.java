@@ -1,9 +1,6 @@
 package com.coderslab.tougherglass.core;
 
-import com.coderslab.tougherglass.core.registry.TABlocks;
 import com.teamabnormals.blueprint.core.util.registry.RegistryHelper;
-import net.minecraft.client.renderer.ItemBlockRenderTypes;
-import net.minecraft.client.renderer.RenderType;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -27,9 +24,7 @@ public class TougherGlass {
 
         REGISTRY_HELPER.register(modEventBus);
 
-        
         MinecraftForge.EVENT_BUS.register(this);
-        
     }
 
     @SubscribeEvent
