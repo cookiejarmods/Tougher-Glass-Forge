@@ -1,5 +1,6 @@
 {
     "parent": "block/cube_all",
+    "render_type": "translucent",
     "textures": {
         "all": "tougherglass:block/stronger_orange_stained_glass"
     }
